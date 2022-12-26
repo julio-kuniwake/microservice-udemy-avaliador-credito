@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
         <module name="ms-clientes" />
+        <module name="ms-cartoes" />
         <module name="ms-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="17" />
+      <module name="ms-cartoes" target="17" />
       <module name="ms-clientes" target="17" />
       <module name="ms-gateway" target="17" />
     </bytecodeTargetLevel>
@@ -21,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaserver" options="-parameters" />
+      <module name="ms-cartoes" options="-parameters" />
       <module name="ms-clientes" options="-parameters" />
       <module name="ms-gateway" options="-parameters" />
     </option>
