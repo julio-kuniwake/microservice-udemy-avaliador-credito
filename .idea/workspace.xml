@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d670ae7d-15db-480c-a917-b4b1dc47ab25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/CartaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/form/CartaoForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/domain/BandeiraCartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/domain/Cartao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/infra/repositories/CartaoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/ClienteCartaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartoesClienteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/domain/ClienteCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/infra/repositories/ClienteCartaoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/CartoesResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/CartoesResource.java" afterDir="false" />
     </list>
@@ -60,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.kuniwakejulio.mscartoes.application.dto" />
       <recent name="com.github.kuniwakejulio.mscartoes.application.form" />
       <recent name="com.github.kuniwakejulio.mscartoes.domain" />
     </key>
