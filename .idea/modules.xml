@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroService Udemy Avaliador de Credito.iml" filepath="$PROJECT_DIR$/.idea/MicroService Udemy Avaliador de Credito.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-clientes/ms-clientes.iml" filepath="$PROJECT_DIR$/ms-clientes/ms-clientes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
     </modules>
   </component>
 </project>
