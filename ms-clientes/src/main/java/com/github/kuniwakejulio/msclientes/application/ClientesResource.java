@@ -4,12 +4,14 @@ import com.github.kuniwakejulio.msclientes.application.dto.ClienteDto;
 import com.github.kuniwakejulio.msclientes.application.dto.DadosCompletoClienteDto;
 import com.github.kuniwakejulio.msclientes.application.form.ClienteForm;
 import com.github.kuniwakejulio.msclientes.domain.Cliente;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value = "/clientes")
+@Slf4j
 public class ClientesResource {
 
     @Autowired
@@ -21,6 +23,7 @@ public class ClientesResource {
 
     @GetMapping
     public String status() {
+        log.info("Obtendo o status do microservice de clientes");
         return "OK";
     }
 
