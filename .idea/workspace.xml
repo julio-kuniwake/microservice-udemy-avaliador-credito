@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d670ae7d-15db-480c-a917-b4b1dc47ab25" name="Changes" comment="">
+    <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-gateway/src/main/java/com/github/kuniwakejulio/msgateway/MsGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/src/main/java/com/github/kuniwakejulio/msgateway/MsGatewayApplication.java" afterDir="false" />
     </list>
@@ -16,8 +22,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +42,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2JSDs0Pv0zvwohy5qqWwBtYSAHI" />
+  <component name="ProjectId" id="2JTa2eBnwYzpS6BrLPK5noFRh2h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,24 +51,29 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/ESTUDO E DESENVOLVIMENTO/Estudo/WorkSpace/Spring Boot/API Alura Forum/forum"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.github.kuniwakejulio.mscartoes.application.dto" />
-      <recent name="com.github.kuniwakejulio.mscartoes.application.form" />
-      <recent name="com.github.kuniwakejulio.mscartoes.domain" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.MsCartoesApplication">
+  <component name="RunManager" selected="Application.MsGatewayApplication">
     <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.kuniwakejulio.eurekaserver.EurekaserverApplication" />
       <module name="eurekaserver" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.github.kuniwakejulio.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsAvaliadorCreditoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.kuniwakejulio.msavaliadorCredito.MsAvaliadorCreditoApplication" />
+      <module name="ms-avaliadorCredito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.kuniwakejulio.msavaliadorCredito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +123,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MsGatewayApplication" />
+        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
         <item itemvalue="Application.MsCartoesApplication" />
         <item itemvalue="Application.MsClientesApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
@@ -123,11 +133,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d670ae7d-15db-480c-a917-b4b1dc47ab25" name="Changes" comment="" />
-      <created>1672062795981</created>
+      <changelist id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="" />
+      <created>1672104324082</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672062795981</updated>
+      <updated>1672104324082</updated>
     </task>
     <servers />
   </component>
