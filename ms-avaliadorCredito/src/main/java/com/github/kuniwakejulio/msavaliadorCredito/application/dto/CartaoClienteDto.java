@@ -8,6 +8,6 @@ import java.math.BigDecimal;
 public class CartaoClienteDto {
 
     private String nome;
-    private String banmdeira;
+    private String bandeira;
     private BigDecimal limiteLiberado;
 }

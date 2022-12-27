@@ -3,13 +3,17 @@ package com.github.kuniwakejulio.msavaliadorCredito.application;
 import com.github.kuniwakejulio.msavaliadorCredito.application.dto.CartaoClienteDto;
 import com.github.kuniwakejulio.msavaliadorCredito.application.dto.CartaoDto;
 import com.github.kuniwakejulio.msavaliadorCredito.application.dto.DadosClienteDto;
+import com.github.kuniwakejulio.msavaliadorCredito.application.dto.ProtocoloSolicitacaoCartaoDto;
 import com.github.kuniwakejulio.msavaliadorCredito.application.exception.DadosClienteNotFoundException;
 import com.github.kuniwakejulio.msavaliadorCredito.application.exception.ErroComunicacaoMicroServiceException;
+import com.github.kuniwakejulio.msavaliadorCredito.application.exception.ErroSolicitacaoCartaoException;
+import com.github.kuniwakejulio.msavaliadorCredito.application.form.DadosSolicitacaoEmissaoCartaoForm;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.CartaoAprovado;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.RetornoAvaliacaoCliente;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.SituacaoCliente;
 import com.github.kuniwakejulio.msavaliadorCredito.infra.feing.CartoesResourceFeign;
 import com.github.kuniwakejulio.msavaliadorCredito.infra.feing.ClienteResourceFeign;
+import com.github.kuniwakejulio.msavaliadorCredito.infra.mqueue.SolicitacaoEmissaoCartaoPublisher;
 import feign.FeignException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +23,7 @@ import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 @Service
@@ -27,9 +32,10 @@ public class AvaliadorCreditoService {
 
     @Autowired
     private final ClienteResourceFeign clienteResourceFeign;
-
     @Autowired
     private final CartoesResourceFeign cartoesResourceFeign;
+    @Autowired
+    private final SolicitacaoEmissaoCartaoPublisher emissaoCartaoPublisher;
 
     public SituacaoCliente obterSituacaoCliente(String cpf) throws DadosClienteNotFoundException, ErroComunicacaoMicroServiceException {
         try {
@@ -80,6 +86,18 @@ public class AvaliadorCreditoService {
                 throw new DadosClienteNotFoundException();
             }
             throw new ErroComunicacaoMicroServiceException(e.getMessage(), status);
+        }
+    }
+
+    public ProtocoloSolicitacaoCartaoDto solicitarEmissaoCartao(DadosSolicitacaoEmissaoCartaoForm dadosForm) {
+        try {
+            emissaoCartaoPublisher.solicitarCartao(dadosForm);
+            var protocolo = UUID.randomUUID().toString();
+            return new ProtocoloSolicitacaoCartaoDto(protocolo);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new ErroSolicitacaoCartaoException(e.getMessage());
         }
     }
 }

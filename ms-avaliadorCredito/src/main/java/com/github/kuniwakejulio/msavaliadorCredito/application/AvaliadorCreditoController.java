@@ -1,7 +1,10 @@
 package com.github.kuniwakejulio.msavaliadorCredito.application;
 
+import com.github.kuniwakejulio.msavaliadorCredito.application.dto.ProtocoloSolicitacaoCartaoDto;
 import com.github.kuniwakejulio.msavaliadorCredito.application.exception.DadosClienteNotFoundException;
 import com.github.kuniwakejulio.msavaliadorCredito.application.exception.ErroComunicacaoMicroServiceException;
+import com.github.kuniwakejulio.msavaliadorCredito.application.exception.ErroSolicitacaoCartaoException;
+import com.github.kuniwakejulio.msavaliadorCredito.application.form.DadosSolicitacaoEmissaoCartaoForm;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.DadosAvaliacao;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.RetornoAvaliacaoCliente;
 import com.github.kuniwakejulio.msavaliadorCredito.domain.model.SituacaoCliente;
@@ -40,7 +43,7 @@ public class AvaliadorCreditoController {
     }
 
     @PostMapping
-    ResponseEntity<Object> realizarAvaliacao(@RequestBody DadosAvaliacao dados){
+    ResponseEntity<Object> realizarAvaliacao(@RequestBody DadosAvaliacao dados) {
         try {
             RetornoAvaliacaoCliente retornoAvaliacaoCliente = avaliadorCreditoService.realizarAvaliacao(dados.getCpf(), dados.getRenda());
             return ResponseEntity.ok(retornoAvaliacaoCliente);
@@ -48,6 +51,16 @@ public class AvaliadorCreditoController {
             return ResponseEntity.notFound().build();
         } catch (ErroComunicacaoMicroServiceException e) {
             return ResponseEntity.status(HttpStatus.resolve(e.getStatus())).body(ResponseEntity.ok(e.getMessage()));
+        }
+    }
+
+    @PostMapping(value = "/solicitacoes-cartao")
+    public ResponseEntity<Object> solicitarCartao(@RequestBody DadosSolicitacaoEmissaoCartaoForm dadosForm) {
+        try {
+            ProtocoloSolicitacaoCartaoDto protocoloSolicitacaoCartaoDto = avaliadorCreditoService.solicitarEmissaoCartao(dadosForm);
+            return ResponseEntity.ok(protocoloSolicitacaoCartaoDto);
+        } catch (ErroSolicitacaoCartaoException e) {
+            return ResponseEntity.internalServerError().body(e.getMessage());
         }
     }
 }
