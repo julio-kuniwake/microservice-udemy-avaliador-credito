@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/CartaoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/CartaoAprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/DadosAvaliacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3189aaaf7a9db8e84622bbf8bca1b0b0aede0d11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ae767f72c5d3a2cd4c21004883baa425f31356" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/DadosSolicitacaoEmissaoCartao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/mqueue/SolicitacaoEmissaoCartaoPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/95fba9d0bc852fd56c18d38d2f59f1b212c4138c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/MsAvaliadorCreditoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/MsAvaliadorCreditoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MsGatewayApplication" />
+        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
         <item itemvalue="Application.MsCartoesApplication" />
         <item itemvalue="Application.MsClientesApplication" />
-        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
-        <item itemvalue="Application.MsGatewayApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
     </recent_temporary>
