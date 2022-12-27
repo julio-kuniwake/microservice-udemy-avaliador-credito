@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaserver" />
+        <module name="ms-avaliadorCredito" />
         <module name="ms-clientes" />
         <module name="ms-cartoes" />
         <module name="ms-gateway" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="17" />
+      <module name="ms-avaliadorCredito" target="17" />
       <module name="ms-cartoes" target="17" />
       <module name="ms-clientes" target="17" />
       <module name="ms-gateway" target="17" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaserver" options="-parameters" />
+      <module name="ms-avaliadorCredito" options="-parameters" />
       <module name="ms-cartoes" options="-parameters" />
       <module name="ms-clientes" options="-parameters" />
       <module name="ms-gateway" options="-parameters" />
