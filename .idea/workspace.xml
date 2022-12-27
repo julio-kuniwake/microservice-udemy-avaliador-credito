@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/exception/DadosClienteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/exception/ErroComunicacaoMicroServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,13 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.github.kuniwakejulio.msavaliadorCredito.application" />
@@ -124,8 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
         <item itemvalue="Application.MsGatewayApplication" />
+        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
         <item itemvalue="Application.MsCartoesApplication" />
         <item itemvalue="Application.MsClientesApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
