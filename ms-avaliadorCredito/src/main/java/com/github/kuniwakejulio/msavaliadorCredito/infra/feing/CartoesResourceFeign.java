@@ -1,6 +1,7 @@
 package com.github.kuniwakejulio.msavaliadorCredito.infra.feing;
 
 import com.github.kuniwakejulio.msavaliadorCredito.application.dto.CartaoClienteDto;
+import com.github.kuniwakejulio.msavaliadorCredito.application.dto.CartaoDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,4 +14,7 @@ public interface CartoesResourceFeign {
 
     @GetMapping(params = "cpf")
     ResponseEntity<List<CartaoClienteDto>> getCartoesByClienteCpf(@RequestParam String cpf);
+
+    @GetMapping(params = "renda")
+    ResponseEntity<List<CartaoDto>> getCartoesRendaAte(@RequestParam("renda") Long renda);
 }
