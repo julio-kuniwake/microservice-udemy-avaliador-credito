@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/CartaoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/CartaoAprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/DadosAvaliacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3189aaaf7a9db8e84622bbf8bca1b0b0aede0d11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ae767f72c5d3a2cd4c21004883baa425f31356" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.github.kuniwakejulio.msavaliadorCredito.application" />
+      <recent name="com.github.kuniwakejulio.msavaliadorCredito.application.dto" />
       <recent name="com.github.kuniwakejulio.msavaliadorCredito.domain.model" />
+      <recent name="com.github.kuniwakejulio.msavaliadorCredito.application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MsGatewayApplication">
+  <component name="RunManager" selected="Application.MsAvaliadorCreditoApplication">
     <configuration name="EurekaserverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.kuniwakejulio.eurekaserver.EurekaserverApplication" />
       <module name="eurekaserver" />
@@ -124,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
-        <item itemvalue="Application.MsGatewayApplication" />
         <item itemvalue="Application.MsCartoesApplication" />
         <item itemvalue="Application.MsClientesApplication" />
+        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
+        <item itemvalue="Application.MsGatewayApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
     </recent_temporary>
