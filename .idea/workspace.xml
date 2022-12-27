@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/CartaoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/CartaoAprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/DadosAvaliacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/domain/model/RetornoAvaliacaoCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/3189aaaf7a9db8e84622bbf8bca1b0b0aede0d11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ae767f72c5d3a2cd4c21004883baa425f31356" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/infra/mqueue/EmissaoCartaoSubscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/AvaliadorCreditoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/application/dto/DadosClienteDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/java/com/github/kuniwakejulio/msavaliadorCredito/infra/feing/CartoesResourceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/application/dto/CartaoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cartoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/MsCartoesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/java/com/github/kuniwakejulio/mscartoes/MsCartoesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +134,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MsGatewayApplication" />
+        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
         <item itemvalue="Application.MsCartoesApplication" />
         <item itemvalue="Application.MsClientesApplication" />
-        <item itemvalue="Application.MsAvaliadorCreditoApplication" />
-        <item itemvalue="Application.MsGatewayApplication" />
         <item itemvalue="Application.EurekaserverApplication" />
       </list>
     </recent_temporary>

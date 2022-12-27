@@ -59,9 +59,6 @@ public class AvaliadorCreditoService {
                 DadosClienteDto dadosClienteDto = dadosClienteDtoResponse.getBody();
 
                 BigDecimal limiteBasico = cartao.getLimiteBasico();
-                System.out.println(cartao.getNome());
-                System.out.println(cartao.getBandeira());
-                System.out.println(limiteBasico);
                 BigDecimal idadeBD = BigDecimal.valueOf(dadosClienteDto.getIdade());
 
                 BigDecimal fatorAnaliseLimite = idadeBD.divide(BigDecimal.valueOf(10));
