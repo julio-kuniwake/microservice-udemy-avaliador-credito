@@ -7,11 +7,13 @@ import com.github.kuniwakejulio.mscartoes.domain.Cartao;
 import com.github.kuniwakejulio.mscartoes.domain.ClienteCartao;
 import com.github.kuniwakejulio.mscartoes.infra.repositories.CartaoRepository;
 import com.github.kuniwakejulio.mscartoes.infra.repositories.ClienteCartaoRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 @Component
+@Slf4j
 public class EmissaoCartaoSubscriber {
     private final CartaoRepository cartaoRepository;
     private final ClienteCartaoRepository clienteCartaoRepository;
@@ -36,7 +38,8 @@ public class EmissaoCartaoSubscriber {
             clienteCartaoRepository.save(clienteCartao); // Efetuando a persistencia
 
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("Erro ao receber solicitação de emissão de cartão: {}", e.getMessage());
+//            e.printStackTrace(); É uma má pratica
         }
     }
 }
