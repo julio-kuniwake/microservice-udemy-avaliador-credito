@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b310c665-aff9-4c75-b7e7-f0ddcdc88272" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log-file.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log-file.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-avaliadorCredito/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-cartoes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-cartoes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-cartoes/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-clientes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-clientes/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-clientes/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-clientes/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
